@@ -15,22 +15,16 @@
 ![](startupImages/4th_step.png)
 
 
-## Launch Test Suite.
+## Excersize
 
-1. Open App Menu by clicking Burger Icon in Top Left corner:
-![](startupImages/5th_step.png)
+To create a new React project, open a new terminal window and go to the directory of your chooice. Then execute the following command:
+```shell
+npx create-react-app my-app
+```
 
-2. Find and open Command Pallet:
-![](startupImages/6th_step.png)
-
-3. Once Command Pallete opened type in "jest" and select "Jest: Start All Runners":
-![](startupImages/7th_step.png)
-
-4. You should notice new Test View in Activity Bar on a left land side. Click on it:
-![](startupImages/8th_step.png)
-
-4. Once expanded, click "Run all tests" action:
-![](startupImages/9th_step.png)
-
-5. You shoul see the results of running tests similar to this:
-![](startupImages/10th_step.png)
+You should see the following question prompted to you, just type `y`:
+```shell
+Need to install the following packages:
+  create-react-app@5.0.1
+Ok to proceed? (y) y
+```
