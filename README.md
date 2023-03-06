@@ -13,3 +13,15 @@
 
 4. Then it should change to this, indicating the Editor is ready to use:
 ![](startupImages/4th_step.png)
+
+## Exersize 
+
+Run this command to move to the `my-app` directory:
+```shell
+cd my-app
+```
+
+Run this command to run the React application `my-app`:
+```shell
+npm start
+```
