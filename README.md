@@ -16,12 +16,22 @@
 
 ## Exersize 
 
-Run this command to move to the `my-app` directory:
+1. Create a new React project, run:
+```shell
+npx create-react-app my-app
+```
+2.You should see the following question prompted to you, just type y:
+
+```shell
+Need to install the following packages:
+  create-react-app@5.0.1
+Ok to proceed? (y) y
+```
+3.Run this command to move to the `my-app` directory:
 ```shell
 cd my-app
 ```
-
-Run this command to run the React application `my-app`:
+4.Run this command to run the React application `my-app`:
 ```shell
 npm start
 ```
