@@ -4,7 +4,7 @@
 1. Once VSCode opens for the first time you should briefly see the following in the terminal. 
 ![](startupImages/1st_step.png)
 
-2. hen it should quickly change to following and will run for a few minutes.
+2. Then it should quickly change to following and will run for a few minutes.
 ![](startupImages/2nd_step.png)
 
 3. Once packages and dependencies required for the project are all installed, you will see the following for a brief moment:
@@ -16,12 +16,14 @@
 
 ## Exersize 
 
-Run this command to move to the `my-app` directory:
+1. Open src/App.js file
+2. Do changes to `function App(){...}`:
 ```shell
-cd my-app
-```
-
-Run this command to run the React application `my-app`:
-```shell
-npm start
+function App() {
+  return (
+    <div className="App">
+      <h1>Hello My Friends!</h1>
+    </div>
+  );
+}
 ```
