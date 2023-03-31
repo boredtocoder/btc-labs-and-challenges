@@ -24,7 +24,7 @@ class MyClassComponent extends React.Component {
 
     handleClick = () => {
         // Step 6
-        // increment variable this.state.count by 1 and set it's state by callig this.setState()
+        // increment variable this.state.count by 1 and set it's state by calling this.setState()
         this.setState({ count: -1 });
     }
 

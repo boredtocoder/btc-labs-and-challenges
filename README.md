@@ -16,14 +16,15 @@
 
 ## Exersize 
 
-1. Open src/App.js file
-2. Do changes to `function App(){...}`:
-```shell
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello My Friends!</h1>
-    </div>
-  );
-}
-```
+1. Open Command Pallet and lauch test Explorer 
+    - View > Command Palet 
+    - type in: Jest: Start All Runners
+2. Implement all Steps Required
+    - Step 1: implement lifecycle method called componentDidMount(). Inside componentDidMount() method. log 'Component mounted!' to the console.
+    - Step 2: implement lifecycle method called componentDidUpdate(). Inside componentDidUpdate() method. log 'Component updated!' to the console.
+    - Step 3: implement lifecycle method called componentWillUnmount(). Inside componentWillUnmount() method. log 'Component will unmount!' to the console.
+    - Step 4: replace X in `<p>You clicked X times</p>` with JavaScript expression rendering 'this.state.count'.
+    - Step 5: dd a button named Click me just below `<p>You clicked...</p>` paragraph. onClick of the button 'this.handleClick' should be called
+    - Step 6: increment variable this.state.count by 1 and set it's state by calling this.setState()
+3. Make sure All tests passes
+![](startupImages/tests_passing.png)
