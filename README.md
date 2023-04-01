@@ -36,11 +36,11 @@
 
 ## Exersize 
 
-1. Open src/MyClassComponent.js file
+1. Open src/MyJSXPlayground.js file
 2. Implement all Steps Required
-    - STEP 1:Replace X with JavaScript expression 3*7.
-    - STEP 2: Create Large block of HTML and assign it to JSX element named myElement. HTML should contain an unordered list (`<ul>`) with three list items (`<li>`), each with different text content: "Apples", "Bananas", and "Cherries".
-    - STEP 3: Replace X with JavaScript expression of user-defined JavaScript function called getName().
+    - Step 1:Replace X with JavaScript expression 3*7.
+    - Step 2: Create Large block of HTML and assign it to JSX element named myElement. HTML should contain an unordered list (`<ul>`) with three list items (`<li>`), each with different text content: "Apples", "Bananas", and "Cherries".
+    - Step 3: Replace X with JavaScript expression of user-defined JavaScript function called getName().
     - Step 4: Change x in order to change text value to "Cat".
 3. Make sure All tests passes (NOTE: example image).
 ![](startupImages/tests_passing.png)
