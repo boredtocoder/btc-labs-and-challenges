@@ -17,14 +17,4 @@
 
 ## Excersize
 
-To create a new React project, open a new terminal window and go to the directory of your chooice. Then execute the following command:
-```shell
-npx create-react-app my-app
-```
-
-You should see the following question prompted to you, just type `y`:
-```shell
-Need to install the following packages:
-  create-react-app@5.0.1
-Ok to proceed? (y) y
-```
+Lauch first Codespaces instance. 
