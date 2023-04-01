@@ -38,11 +38,9 @@
 
 1. Open src/MyClassComponent.js file
 2. Implement all Steps Required
-    - Step 1: implement lifecycle method called componentDidMount(). Inside componentDidMount() method. log 'Component mounted!' to the console.
-    - Step 2: implement lifecycle method called componentDidUpdate(). Inside componentDidUpdate() method. log 'Component updated!' to the console.
-    - Step 3: implement lifecycle method called componentWillUnmount(). Inside componentWillUnmount() method. log 'Component will unmount!' to the console.
-    - Step 4: replace X in `<p>You clicked X times</p>` with JavaScript expression rendering 'this.state.count'.
-    - Step 5: dd a button named Click me just below `<p>You clicked...</p>` paragraph. onClick of the button 'this.handleClick' should be called
-    - Step 6: increment variable this.state.count by 1 and set it's state by calling this.setState()
-3. Make sure All tests passes
+    - STEP 1:Replace X with JavaScript expression 3*7.
+    - STEP 2: Create Large block of HTML and assign it to JSX element named myElement. HTML should contain an unordered list (`<ul>`) with three list items (`<li>`), each with different text content: "Apples", "Bananas", and "Cherries".
+    - STEP 3: Replace X with JavaScript expression of user-defined JavaScript function called getName().
+    - Step 4: Change x in order to change text value to "Cat".
+3. Make sure All tests passes (NOTE: example image).
 ![](startupImages/tests_passing.png)
