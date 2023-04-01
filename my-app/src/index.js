@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import MyClassComponent from './MyClassComponent';
+import MyFunctionComponent from './MyFunctionComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MyClassComponent />
+    <MyFunctionComponent name="John"/>
   </React.StrictMode>
 );

@@ -36,13 +36,9 @@
 
 ## Exersize 
 
-1. Open src/MyClassComponent.js file
+1. Open src/MyFunctionComponent.js file
 2. Implement all Steps Required
-    - Step 1: implement lifecycle method called componentDidMount(). Inside componentDidMount() method. log 'Component mounted!' to the console.
-    - Step 2: implement lifecycle method called componentDidUpdate(). Inside componentDidUpdate() method. log 'Component updated!' to the console.
-    - Step 3: implement lifecycle method called componentWillUnmount(). Inside componentWillUnmount() method. log 'Component will unmount!' to the console.
-    - Step 4: replace X in `<p>You clicked X times</p>` with JavaScript expression rendering 'this.state.count'.
-    - Step 5: dd a button named Click me just below `<p>You clicked...</p>` paragraph. onClick of the button 'this.handleClick' should be called
-    - Step 6: increment variable this.state.count by 1 and set it's state by calling this.setState()
-3. Make sure All tests passes
+    - Step 1: Include `props` object as a parameter that is passed to the MyFunctionComponent component.
+    - Step 2: Replace X in `<p>Hello, X!</p>` with JavaScript expression rendering 'props.name'.
+3. Make sure All tests passes (Note: example image)
 ![](startupImages/tests_passing.png)
